@@ -71,8 +71,7 @@ def cough_check(update, context):
     update.message.reply_text(response)
 
     file = context.bot.get_file(update.message.voice.file_id)
-    update.message.reply_text(response)
-
+    
     url_coughcheck = "https://coughapi.p.rapidapi.com/v1/recognize/url"
     file_path = context.bot.get_file(file).file_path
 
@@ -94,7 +93,7 @@ def cough_check(update, context):
                               el['start'],
                               el['end'],
                               round(el['wetPrediction']*100))
-                        for i, el in enumerate(response)]
+                        for i, el in enumerate(res)]
         response = "\n".join(cough_list)
         if len(response) == 0:
             response = ("Aku gak bisa deteksi batuknya di rekaman tadi 🙇🏼‍♂️. "
