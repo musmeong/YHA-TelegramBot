@@ -2,7 +2,7 @@
 <img src="https://i.ibb.co/bND3r4t/photo-2020-12-16-00-57-13.jpg" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="Telegram-Bot" src="https://img.shields.io/badge/Telegram Bot-blue?colorA=%23ff0000&colorB=%230088cc&style=for-the-badge"></a>
+<a href="http://t.me/yhatelebot"><img title="Telegram-Bot" src="https://img.shields.io/badge/Telegram Bot-blue?colorA=%23ff0000&colorB=%230088cc&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/musmeong"><img title="Author" src="https://img.shields.io/badge/AUTHOR-MusMeong-blue.svg?style=for-the-badge&logo=github"></a>
