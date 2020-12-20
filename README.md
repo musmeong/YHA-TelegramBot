@@ -53,9 +53,9 @@ Run the Telegram bot
 
   **Info Nutrisi**
 
-- Get IBM Visual Recognition API and URL by following steps from [this website](https://cloud.ibm.com/docs/visual-recognition?topic=visual-recognition-getting-started-tutorial) to detect object in the photo. Change the token on [this section for API](https://github.com/musmeong/YHA-TelegramBot/blob/main/token.json#L6) and [this section for URL](https://github.com/musmeong/YHA-TelegramBot/blob/main/token.json#L7). (**Warning**: VisualRecognition IBM will be deprecated on 1 December 2021)
+- Get IBM Visual Recognition API and URL by following steps from [this website](https://cloud.ibm.com/docs/visual-recognition?topic=visual-recognition-getting-started-tutorial) to detect object in the photo. Change the token on [this section for API](https://github.com/musmeong/YHA-TelegramBot/blob/main/token.json#L6) and [this section for URL](https://github.com/musmeong/YHA-TelegramBot/blob/main/token.json#L7). (**Warning**: VisualRecognition IBM will be deprecated on 1 December 2021, **Note:** Free User get 1000 requests per month)
 
-- Get Edamam API by signing up on [this website](https://developer.edamam.com/edamam-nutrition-api) and change the token on [this section](https://github.com/musmeong/YHA-TelegramBot/blob/main/token.json#L8). (**Note:** Free User get 1000 requests per month)
+- Get Edamam API by signing up on [this website](https://developer.edamam.com/edamam-nutrition-api), input the **Application ID** and **Application KEY** in this url "https://api.edamam.com/api/nutrition-data?app_id={{APP ID}}&app_key={{APP KEY}}&ingr=1%20" change the url on [this section](https://github.com/musmeong/YHA-TelegramBot/blob/main/token.json#L8). (**Note:** Free User get 1000 requests per month)
 
   **Deteksi Batuk**
 
@@ -80,6 +80,10 @@ This repository already have [Aptfile](https://github.com/musmeong/YHA-TelegramB
 3. Give your app a name and click "Create App".
 
 4. Follow the instruction on "Deploy using Heroku Git" section.
+
+5. After successfully deploying the bot, activate the bot by going into "Resources" tab. Click "pen" icon on Free Dynos section to edit the worker, toggle the slider button and click "Confirm".
+
+6. Your bot now can be tested.
 
    
 
